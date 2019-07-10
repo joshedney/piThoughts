@@ -1,0 +1,2 @@
+MAILTO=""
+*/10	*	*	*	*	root	python3 /home/pi/thoughts.py --colour red

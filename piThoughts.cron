@@ -1,2 +1,2 @@
 MAILTO=""
-*/10	*	*	*	*	root	python3 /home/pi/thoughts.py --colour red
+*/10	*	*	*	*	python3 /home/pi/thoughts.py --colour red >> /home/pi/thoughts.log

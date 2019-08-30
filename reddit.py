@@ -11,7 +11,7 @@ reddit = praw.Reddit(client_id=os.getenv('CLIENT_ID'),
                      user_agent=os.getenv('USER_AGENT'))
 
 
-def get_hot_posts(subreddit, limit):
+def hot_posts(subreddit, limit):
     posts = []
     n = 0
     for p in reddit.subreddit(subreddit).hot(limit=limit):

@@ -1,9 +1,9 @@
-from reddit import get_hot_posts
+from reddit import hot_posts
 import random
 
-quantity = 10
+quantity = 50
 
-result = get_hot_posts('all', quantity)
+result = hot_posts('showerthoughts', quantity)
 uid = random.randint(0, quantity - 1)
 
 for r in result:
